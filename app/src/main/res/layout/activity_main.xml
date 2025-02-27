@@ -73,19 +73,22 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="-"
-            android:layout_margin="2dp"/>
+            android:layout_margin="2dp"
+            android:onClick="XuLyTru"/>
         <Button
             android:id="@+id/btnNhan"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="x"
-            android:layout_margin="2dp"/>
+            android:layout_margin="2dp"
+            android:onClick="XuLyNhan"/>
         <Button
             android:id="@+id/btnChia"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="/"
-            android:layout_margin="2dp"/>
+            android:layout_margin="2dp"
+            android:onClick="XuLyChia"/>
     </LinearLayout>
 
     <LinearLayout

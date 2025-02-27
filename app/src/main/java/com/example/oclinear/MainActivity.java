@@ -56,6 +56,42 @@ public class MainActivity extends AppCompatActivity {
         //
         int so_a=Integer.parseInt(str1);
         int so_b=Integer.parseInt(str2);
-        int kq=
+        int kq=so_a*so_b;
+        //
+        String strKq=String.valueOf(kq);
+        //Xuất dữ liệu ra màn hình
+        KetQua.setText(strKq);
+    }
+    public void XuLyChia(View view){
+        EditText soA=findViewById(R.id.edt1);
+        EditText soB=findViewById(R.id.edt2);
+        EditText KetQua=findViewById(R.id.edtKetQua);
+        //Lấy dữ liệu ở điều khiển A
+        String str1=soA.getText().toString();
+        String str2=soB.getText().toString();
+        //
+        int so_a=Integer.parseInt(str1);
+        int so_b=Integer.parseInt(str2);
+        double kq=(double)so_a/so_b;
+        //
+        String strKq=String.valueOf(kq);
+        //Xuất dữ liệu ra màn hình
+        KetQua.setText(strKq);
+    }
+    public void XuLyTru(View view){
+        EditText soA=findViewById(R.id.edt1);
+        EditText soB=findViewById(R.id.edt2);
+        EditText KetQua=findViewById(R.id.edtKetQua);
+        //Lấy dữ liệu ở điều khiển A
+        String str1=soA.getText().toString();
+        String str2=soB.getText().toString();
+        //
+        int so_a=Integer.parseInt(str1);
+        int so_b=Integer.parseInt(str2);
+        int kq=so_a-so_b;
+        //
+        String strKq=String.valueOf(kq);
+        //Xuất dữ liệu ra màn hình
+        KetQua.setText(strKq);
     }
 }
