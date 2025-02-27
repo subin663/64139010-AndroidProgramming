@@ -45,4 +45,17 @@ public class MainActivity extends AppCompatActivity {
         edtKQ.setText(strKQ);
 
     }
+
+    public void XuLyNhan(View view){
+        EditText soA=findViewById(R.id.edt1);
+        EditText soB=findViewById(R.id.edt2);
+        EditText KetQua=findViewById(R.id.edtKetQua);
+        //Lấy dữ liệu ở điều khiển A
+        String str1=soA.getText().toString();
+        String str2=soB.getText().toString();
+        //
+        int so_a=Integer.parseInt(str1);
+        int so_b=Integer.parseInt(str2);
+        int kq=
+    }
 }
