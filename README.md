@@ -4,7 +4,7 @@
 
 Một ứng dụng di động được phát triển bằng AndroidStudio.
 <div align="center">
-  <img height="400" src="[https://proeffico.com/wp-content/uploads/2023/10/app-development-1.gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2lkdWRrMW1jeXk5OHFqYTh1cDM5bWs2Zzg1YWVyOThzNGo3aGJhciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bGgsc5mWoryfgKBx1u/giphy.gif)"  />
+  <iframe src="https://giphy.com/embed/bGgsc5mWoryfgKBx1u" width="480" height="480" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/computador-gu-tecnology-bGgsc5mWoryfgKBx1u">via GIPHY</a></p>
 </div>
 ## Tính Năng
 
