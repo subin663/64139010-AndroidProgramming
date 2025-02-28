@@ -57,15 +57,17 @@
             android:id="@+id/edtCm"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Cm"
+            android:hint="M"
             android:gravity="center"
-            android:inputType="numberSigned"/>
+            android:inputType="numberDecimal"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:gravity="center">
         <RadioGroup
+            android:id="@+id/rdoSex"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -92,26 +94,58 @@
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:text="Tính toán"
-            android:textSize="20dp">
+            android:textSize="20dp"
+            android:onClick="TinhToan">
         </Button>
     </LinearLayout>
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center">
 
-        <EditText
-            android:id="@+id/edtKQ"
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Kết quả: "
+                android:gravity="center"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/black"
+                />
+            <EditText
+                android:id="@+id/edtKQ"
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:enabled="false"
+                android:textColor="@color/black">
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:enabled="false">
-        </EditText>
-        <EditText
-            android:id="@+id/edtRate"
-            android:layout_width="match_parent"
-            android:layout_height="120dp">
-        </EditText>
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Đánh giá: "
+                android:gravity="center"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/black"
+                />
+
+            <EditText
+                android:id="@+id/edtRate"
+                android:layout_width="190dp"
+                android:layout_height="match_parent">
+            </EditText>
+        </LinearLayout>
     </LinearLayout>
 
 </LinearLayout>
