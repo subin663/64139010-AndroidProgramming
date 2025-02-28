@@ -4,7 +4,7 @@
 
 Một ứng dụng di động được phát triển bằng AndroidStudio.
 <div align="center">
-  <img height="400" src="https://proeffico.com/wp-content/uploads/2023/10/app-development-1.gif"  />
+  <img height="400" src="[https://proeffico.com/wp-content/uploads/2023/10/app-development-1.gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2lkdWRrMW1jeXk5OHFqYTh1cDM5bWs2Zzg1YWVyOThzNGo3aGJhciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bGgsc5mWoryfgKBx1u/giphy.gif)"  />
 </div>
 ## Tính Năng
 
