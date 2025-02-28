@@ -1,9 +1,9 @@
 <div align="center">
-  # Lập trình Ứng Dụng Di Động
+  <h1>  Lập trình Ứng Dụng Di Động</h1>
 
  <!-- Thay thế bằng đường dẫn đến logo của ứng dụng -->
 
-Một ứng dụng di động được phát triển bằng AndroidStudio.
+<h3>Mobile Programs</h3>
 </div>
 
 <div align="center">
