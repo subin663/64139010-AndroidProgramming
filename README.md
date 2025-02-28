@@ -3,7 +3,9 @@
  <!-- Thay thế bằng đường dẫn đến logo của ứng dụng -->
 
 Một ứng dụng di động được phát triển bằng AndroidStudio.
-
+<div align="center">
+  <img height="400" src="https://proeffico.com/wp-content/uploads/2023/10/app-development-1.gif"  />
+</div>
 ## Tính Năng
 
 - **Tính năng 1**: Mô tả ngắn gọn về tính năng 1.
