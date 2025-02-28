@@ -8,5 +8,111 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI"
+        android:layout_gravity="center"
+        android:textSize="50dp"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Vui lòng nhập cân nặng của bạn !"
+            android:textSize="25dp"
+            android:gravity="center"
+            />
+        <EditText
+            android:id="@+id/edtKg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Kg"
+            android:gravity="center"
+            android:inputType="numberSigned"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Vui lòng nhập chiều cao của bạn !"
+            android:textSize="25dp"
+            android:gravity="center"
+            />
+        <EditText
+            android:id="@+id/edtCm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Cm"
+            android:gravity="center"
+            android:inputType="numberSigned"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center">
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rdoNam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nam"/>
+            <RadioButton
+                android:id="@+id/rdoNu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nữ"/>
+        </RadioGroup>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnKq"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Tính toán"
+            android:textSize="20dp">
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/edtKQ"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:enabled="false">
+        </EditText>
+        <EditText
+            android:id="@+id/edtRate"
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+        </EditText>
+    </LinearLayout>
 
 </LinearLayout>
+
