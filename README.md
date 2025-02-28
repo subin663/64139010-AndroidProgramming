@@ -4,8 +4,9 @@
 
 Một ứng dụng di động được phát triển bằng AndroidStudio.
 <div align="center">
-  <iframe src="https://giphy.com/embed/bGgsc5mWoryfgKBx1u" width="480" height="480" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/computador-gu-tecnology-bGgsc5mWoryfgKBx1u">via GIPHY</a></p>
+  <img height="400" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTJscTRrN29ybW04OHByZm8xNTZzazB3czg4cHJkdG0wM2I2YzNsNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bGgsc5mWoryfgKBx1u/giphy.gif" />
 </div>
+
 ## Tính Năng
 
 - **Tính năng 1**: Mô tả ngắn gọn về tính năng 1.
