@@ -1,8 +1,11 @@
-# Lập trình Ứng Dụng Di Động
+<div align="center">
+  # Lập trình Ứng Dụng Di Động
 
  <!-- Thay thế bằng đường dẫn đến logo của ứng dụng -->
 
 Một ứng dụng di động được phát triển bằng AndroidStudio.
+</div>
+
 <div align="center">
   <img height="400" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTJscTRrN29ybW04OHByZm8xNTZzazB3czg4cHJkdG0wM2I2YzNsNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bGgsc5mWoryfgKBx1u/giphy.gif" />
 </div>
