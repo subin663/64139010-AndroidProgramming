@@ -111,12 +111,12 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@android:color/holo_orange_light">
-    <EditText
-        android:id="@+id/edtKetQua"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="center"
-        android:hint="Kết quả sẽ xuất hiện ở dòng này !"
-        android:enabled="false"/>
+        <EditText
+            android:id="@+id/edtKetQua"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:hint="Kết quả sẽ xuất hiện ở dòng này !"
+            android:enabled="false"/>
     </LinearLayout>
 </LinearLayout>
