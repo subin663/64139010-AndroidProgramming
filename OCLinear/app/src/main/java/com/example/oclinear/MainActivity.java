@@ -12,6 +12,9 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
+    EditText edtA;
+    EditText edtB;
+    EditText edtKQ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,12 +25,15 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        TimDieuKhien();
+    }
+    public void TimDieuKhien(){
+        edtA=findViewById(R.id.edt1);
+        edtB=findViewById(R.id.edt2);
+        edtKQ=findViewById(R.id.edtKetQua);
     }
     public void XuLyCong(View view)
     {
-        EditText edtA = findViewById(R.id.edt1);
-        EditText edtB = findViewById(R.id.edt2);
-        EditText edtKQ = findViewById(R.id.edtKetQua);
         //Lấy dữ liệu ở điều khiển A
         String strA = edtA.getText().toString(); //strA=2;
         //Lấy dữ liệu ở điều khiển B
@@ -47,12 +53,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void XuLyNhan(View view){
-        EditText soA=findViewById(R.id.edt1);
-        EditText soB=findViewById(R.id.edt2);
-        EditText KetQua=findViewById(R.id.edtKetQua);
         //Lấy dữ liệu ở điều khiển A
-        String str1=soA.getText().toString();
-        String str2=soB.getText().toString();
+        String str1=edtA.getText().toString();
+        String str2=edtB.getText().toString();
         //
         int so_a=Integer.parseInt(str1);
         int so_b=Integer.parseInt(str2);
@@ -60,15 +63,11 @@ public class MainActivity extends AppCompatActivity {
         //
         String strKq=String.valueOf(kq);
         //Xuất dữ liệu ra màn hình
-        KetQua.setText(strKq);
+        edtKQ.setText(strKq);
     }
     public void XuLyChia(View view){
-        EditText soA=findViewById(R.id.edt1);
-        EditText soB=findViewById(R.id.edt2);
-        EditText KetQua=findViewById(R.id.edtKetQua);
-        //Lấy dữ liệu ở điều khiển A
-        String str1=soA.getText().toString();
-        String str2=soB.getText().toString();
+        String str1=edtA.getText().toString();
+        String str2=edtB.getText().toString();
         //
         int so_a=Integer.parseInt(str1);
         int so_b=Integer.parseInt(str2);
@@ -76,15 +75,12 @@ public class MainActivity extends AppCompatActivity {
         //
         String strKq=String.valueOf(kq);
         //Xuất dữ liệu ra màn hình
-        KetQua.setText(strKq);
+        edtKQ.setText(strKq);
     }
     public void XuLyTru(View view){
-        EditText soA=findViewById(R.id.edt1);
-        EditText soB=findViewById(R.id.edt2);
-        EditText KetQua=findViewById(R.id.edtKetQua);
         //Lấy dữ liệu ở điều khiển A
-        String str1=soA.getText().toString();
-        String str2=soB.getText().toString();
+        String str1=edtA.getText().toString();
+        String str2=edtB.getText().toString();
         //
         int so_a=Integer.parseInt(str1);
         int so_b=Integer.parseInt(str2);
@@ -92,6 +88,6 @@ public class MainActivity extends AppCompatActivity {
         //
         String strKq=String.valueOf(kq);
         //Xuất dữ liệu ra màn hình
-        KetQua.setText(strKq);
+        edtKQ.setText(strKq);
     }
 }
