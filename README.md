@@ -10,19 +10,6 @@
   <img height="400" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTJscTRrN29ybW04OHByZm8xNTZzazB3czg4cHJkdG0wM2I2YzNsNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bGgsc5mWoryfgKBx1u/giphy.gif" />
 </div>
 
-## Tính Năng
-
-- **Tính năng 1**: Mô tả ngắn gọn về tính năng 1.
-- **Tính năng 2**: Mô tả ngắn gọn về tính năng 2.
-- **Tính năng 3**: Mô tả ngắn gọn về tính năng 3.
-
-## Cài Đặt
-
-Để chạy ứng dụng trên máy tính của bạn, làm theo các bước sau:
-
-1. **Clone repository**:
-   ```bash
-   git clone https://github.com/username/repository-name.git
 
 <h2 align="left">Hi 👋! My name is ... and I'm a ..., from ....</h2>
 
