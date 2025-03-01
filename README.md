@@ -26,12 +26,12 @@
 <br clear="both">
 ###
 
-<h2 align="left">😽SOURCES CODE BÀI TẬP THỰC HÀNH😽</h2>
+<h2 align="left">SOURCES CODE BÀI TẬP THỰC HÀNH</h2>
 
 ###
 <div>
-  <h4>EX1: <a href = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/tree/main/Ex1_Hello/app/src/main">Ex1_Hello</a></h4>
-  <img src = "https://github.com/hungnguyen2912003/63132095-AndroidProgramming/blob/main/images/ex1_hello.png" width = "200">
+  <h4>EX1: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/Ex1_Hello">Ex1_Hello</a></h4>
+  <img src = "D:\Github\64139010-AndroidProgramming\Blog\Ex1_Hello.jpg" width = "200">
 </div>
 
 <div>
