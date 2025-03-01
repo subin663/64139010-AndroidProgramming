@@ -31,8 +31,8 @@
 ###
 <div>
   <h4>EX1: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/Ex1_Hello">Ex1_Hello</a></h4>
-  <img src = "D:\Github\64139010-AndroidProgramming\Blog\Ex1_Hello.jpg" width = "200">
-  ![image](https://github.com/user-attachments/assets/bd386c11-033a-465b-95e1-737c73df22d6)
+  <img src = "
+  ![image](https://github.com/user-attachments/assets/bd386c11-033a-465b-95e1-737c73df22d6)" width = "200">
 
 </div>
 
