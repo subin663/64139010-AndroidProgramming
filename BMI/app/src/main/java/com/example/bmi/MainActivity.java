@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
                 strRate="Béo phì";
             }
         }
-        String Ketqua=String.valueOf(ketqua);
+        String Ketqua = String.format("%.1f", ketqua);
         edtKetqua.setText(Ketqua);
         edtRate.setText(strRate);
     }
