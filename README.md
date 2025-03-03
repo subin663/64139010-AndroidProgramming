@@ -8,8 +8,13 @@ Một ứng dụng di động được phát triển bằng [Flutter/React Nativ
 Một ứng dụng di động được phát triển bằng AndroidStudio.
 
 ## Tính Năng
-![alt](BMICalculator.jpg)
-![alt](Ex1_Hello.jpg)
-![alt](Ex2_LinearLayout.jpg)
-![alt](Ex3_SimpleSumApp.jpg)
-![alt](ConvertUnit.jpg)
+# Ex1 HelloWord
+![alt](Blog/Ex1_Hello.jpg)
+# Ex2 LinearLayout
+![alt](Blog/Ex2_LinearLayout.jpg)
+# Ex3 SimpleSumApp
+![alt](Blog/Ex3_SimpleSumApp.jpg)
+# Ex 4 BMIConculator
+![alt](Blog/BMICalculator.jpg)
+# Ex 5 ConvertUnit
+![alt](Blog/ConvertUnit.jpg)
