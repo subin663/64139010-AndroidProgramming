@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
         TimDieuKhien();
+
     }
     public void TimDieuKhien(){
         edt=findViewById(R.id.edtDola);
@@ -36,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
         double Dola=Double.parseDouble(strA);
         //Tính toán
-        double ans=Dola/25;
+        double ans=Dola/25000;
 
         String strKQ=String.valueOf(ans); //strKQ=6
         edtAns.setText(strKQ);
