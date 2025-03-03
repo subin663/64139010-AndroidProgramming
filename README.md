@@ -9,3 +9,6 @@ Một ứng dụng di động được phát triển bằng AndroidStudio.
 
 ## Tính Năng
 ![alt](BMICalculator.jpg)
+![alt](Ex1_Hello.jpg)
+![alt](Ex2_LinearLayout.jpg)
+![alt](Ex3_SimpleSumApp.jpg)
