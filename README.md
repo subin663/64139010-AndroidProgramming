@@ -8,3 +8,4 @@ Một ứng dụng di động được phát triển bằng [Flutter/React Nativ
 Một ứng dụng di động được phát triển bằng AndroidStudio.
 
 ## Tính Năng
+![alt](BMICalculator.jpg)
