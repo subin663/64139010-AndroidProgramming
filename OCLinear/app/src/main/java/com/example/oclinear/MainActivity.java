@@ -2,6 +2,7 @@ package com.example.oclinear;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
@@ -15,6 +16,16 @@ public class MainActivity extends AppCompatActivity {
     EditText edtA;
     EditText edtB;
     EditText edtKQ;
+    Button nutCong, nutTru, nutNhan, nutChia;
+    void TimDieuKhien(){
+        edtA=findViewById(R.id.edt1);
+        edtB=findViewById(R.id.edt2);
+        edtKQ=findViewById(R.id.edtKetQua);
+        nutCong=(Button)findViewById(R.id.btnCong);
+        nutTru=(Button) findViewById(R.id.btnTru);
+        nutNhan=(Button)findViewById(R.id.btnNhan);
+        nutChia=(Button) findViewById(R.id.btnChia);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,13 +37,38 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
         TimDieuKhien();
-    }
-    public void TimDieuKhien(){
-        edtA=findViewById(R.id.edt1);
-        edtB=findViewById(R.id.edt2);
-        edtKQ=findViewById(R.id.edtKetQua);
-    }
-    public void XuLyCong(View view)
+        //Gắn bộ lắng nghe sự kiện và code xử lý cho từng nút
+            nutCong.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    //Xử lý cộng ở đây
+                    XuLyCong();
+                }
+            });
+            nutTru.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    //Xử lý trừ ở đây
+                    XuLyTru();
+                }
+            });
+            nutNhan.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    //Xử lý nhân ở đây
+                    XuLyNhan();
+                }
+            });
+            nutChia.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    //Xử lý chia ở đây
+                    XuLyChia();
+                }
+            });
+
+        }
+    void XuLyCong()
     {
         //Lấy dữ liệu ở điều khiển A
         String strA = edtA.getText().toString(); //strA=2;
@@ -51,8 +87,7 @@ public class MainActivity extends AppCompatActivity {
         edtKQ.setText(strKQ);
 
     }
-
-    public void XuLyNhan(View view){
+    void XuLyNhan(){
         //Lấy dữ liệu ở điều khiển A
         String str1=edtA.getText().toString();
         String str2=edtB.getText().toString();
@@ -65,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
         //Xuất dữ liệu ra màn hình
         edtKQ.setText(strKq);
     }
-    public void XuLyChia(View view){
+    void XuLyChia(){
         String str1=edtA.getText().toString();
         String str2=edtB.getText().toString();
         //
@@ -77,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
         //Xuất dữ liệu ra màn hình
         edtKQ.setText(strKq);
     }
-    public void XuLyTru(View view){
+    public void XuLyTru(){
         //Lấy dữ liệu ở điều khiển A
         String str1=edtA.getText().toString();
         String str2=edtB.getText().toString();
