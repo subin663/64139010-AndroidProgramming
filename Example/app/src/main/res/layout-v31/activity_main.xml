@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:background="@android:color/holo_blue_dark"
+    android:background="@android:color/system_accent1_800"
     >
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="PHÉP TÍNH SỐ HỌC"
+            android:text="Super Calculator CASIO 2025"
             android:textSize="25dp"
             android:gravity="center"/>
     </LinearLayout>
