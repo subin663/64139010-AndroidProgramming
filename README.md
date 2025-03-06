@@ -19,13 +19,20 @@ Một ứng dụng di động được phát triển bằng AndroidStudio.
 # Ex 5 ConvertUnit
 ![alt](Blog/ConvertUnit.jpg)
 <div>
+  <h4>Ex4: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/Ex6_IntentDonGian">Ex4_SimpleSumApp</a></h4>
+  <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/Ex3_SimpleSumApp.jpg" width = "200">
+</div>
+<div>
+  <h4>Ex5: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/Ex6_IntentDonGian">Ex5_ConvertUnit</a></h4>
+  <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/ConvertUnit.jpg" width = "200">
+</div>
+
+
+<div>
   <h4>Ex6: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/Ex6_IntentDonGian">Ex6_LoginBasic</a></h4>
   <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/Ex6_IntentBasic/img.jpg" width = "200">
   <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/Ex6_IntentBasic/img2.jpg" width = "200">
-    <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/Ex6_IntentBasic/imgmh3.jpg" width = "200">
-
-  
- 
+  <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/Ex6_IntentBasic/imgmh3.jpg" width = "200"> 
 </div>
 
 <div>
