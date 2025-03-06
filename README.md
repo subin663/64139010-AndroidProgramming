@@ -22,7 +22,7 @@ Một ứng dụng di động được phát triển bằng AndroidStudio.
 </div>
 <div>
   <h4>Ex4: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/Ex6_IntentDonGian">Ex4_BMIConculator</a></h4>
-  <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/Ex3_SimpleSumApp.jpg" width = "200">
+  <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/BMICalculator.jpg" width = "200">
 </div>
 <div>
   <h4>Ex5: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/Ex6_IntentDonGian">Ex5_ConvertUnit</a></h4>
