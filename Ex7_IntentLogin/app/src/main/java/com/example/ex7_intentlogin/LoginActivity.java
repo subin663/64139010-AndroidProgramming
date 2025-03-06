@@ -39,6 +39,8 @@ public class LoginActivity extends AppCompatActivity {
                     //Gói dữ liệu vào iquiz, dạng key- value, key được dùng để bên kia lọc ra dữ liệu
                     iQuiz.putExtra("ten_dang_nhap", Username);
                     iQuiz.putExtra("mat_khau", Password);
+
+                    Toast.makeText(LoginActivity.this,"Xin Chào",Toast.LENGTH_LONG).show();
                     startActivity(iQuiz);
                 }else{
                     Toast.makeText(LoginActivity.this,"VUI LÒNG KIỂM TRA LẠI USERNAME HOẶC PASSWORD",Toast.LENGTH_LONG).show();

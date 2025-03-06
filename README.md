@@ -18,3 +18,6 @@ Một ứng dụng di động được phát triển bằng AndroidStudio.
 ![alt](Blog/BMICalculator.jpg)
 # Ex 5 ConvertUnit
 ![alt](Blog/ConvertUnit.jpg)
+<div style="width: 100px; height: 100px; overflow: hidden;">
+    <img src="Blog/Ex1_Hello.jpg" alt="alt text" style="width: 150px; height: 150px; object-fit: cover;">
+</div>
