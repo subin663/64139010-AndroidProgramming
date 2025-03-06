@@ -15,7 +15,6 @@
         android:textStyle="bold"
         android:textColor="@android:color/holo_blue_bright"
         android:text="Đây là màn hình 3"
-        android:background="@android:color/background_dark"
         android:padding="30dp"/>
     <ImageView
         android:layout_width="300dp"
