@@ -8,17 +8,9 @@ Lưu trữ các bài tập của tôi.
 Một ứng dụng di động được phát triển bằng AndroidStudio.
 
 ## Tính Năng
-# Ex1 HelloWord
-![alt](Blog/Ex1_Hello.jpg)
-# Ex2 LinearLayout
-![alt](Blog/Ex2_LinearLayout.jpg)
-# Ex3 SimpleSumApp
-![alt](Blog/Ex3_SimpleSumApp.jpg)
-# Ex 4 BMIConculator
-![alt](Blog/BMICalculator.jpg)
 <div>
   <h4>Ex1: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/Ex6_IntentDonGian">Ex3_HelloApp</a></h4>
-  <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/Ex1_Hello.jpg" width = "200">
+  <img src = "" width = "200">
 </div>
 <div>
   <h4>Ex2: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/Ex6_IntentDonGian">Ex2_LinearLayout</a></h4>
