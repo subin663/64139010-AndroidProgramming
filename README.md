@@ -14,7 +14,7 @@ Một ứng dụng di động được phát triển bằng AndroidStudio.
 </div>
 <div>
   <h4>Ex2: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/Ex6_IntentDonGian">Ex2_LinearLayout</a></h4>
-  <img src = "" width = "200">
+  <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/Ex2_LinearLayout.jpg" width = "200">
 </div>
 <div>
   <h4>Ex3: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/Ex6_IntentDonGian">Ex3_SimpleSumApp</a></h4>
