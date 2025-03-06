@@ -30,7 +30,17 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //Tạo 1 intent 2 tham số 1. Màn hình hiện tại 2. Màn hình muốn chuyển đến
                 Intent intentMh2=new Intent(MainActivity.this, Mh2Activity.class);
+                //gửi
+                startActivity(intentMh2);
+            }
+        });
 
+        //
+        btnScreen3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentMh3=new Intent(MainActivity.this,Mh3Activity.class);
+                startActivity(intentMh3);
             }
         });
     }
