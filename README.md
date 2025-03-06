@@ -25,6 +25,10 @@ Một ứng dụng di động được phát triển bằng AndroidStudio.
 <div>
   <h4>Ex5: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/Ex6_IntentDonGian">Ex5_ConvertUnit</a></h4>
   <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/ConvertUnit.jpg" width = "200">
+ 
+  <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/ConvertUnit.jpg" width = "200">
+  
+  <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/ConvertUnit.jpg" width = "200">
 </div>
 
 
