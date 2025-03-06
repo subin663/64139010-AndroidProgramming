@@ -9,7 +9,6 @@ Một ứng dụng di động được phát triển bằng AndroidStudio.
 
 ## Tính Năng
 # Ex1 HelloWord
-![image-alt](Blog/Ex1_Hello.jpg)
 ![alt](Blog/Ex1_Hello.jpg)
 # Ex2 LinearLayout
 ![alt](Blog/Ex2_LinearLayout.jpg)
