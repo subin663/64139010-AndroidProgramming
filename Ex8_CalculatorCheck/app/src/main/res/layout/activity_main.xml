@@ -21,15 +21,15 @@
             android:text="〤Calculator Check〤"
             android:textSize="40dp"
             android:layout_marginBottom="70dp"
-            android:background="#BFE06C"/>
+            android:background="@drawable/textview_main"/>
         <Button
             android:id="@+id/btnVt"
             android:layout_width="150dp"
             android:layout_height="60dp"
-            android:text="Vào thôii !!"
+            android:text="VÀO"
             android:textSize="20dp"
             android:layout_marginTop="30dp"
-            android:backgroundTint="@color/black"/>
+            android:backgroundTint="#A42451"/>
     </LinearLayout>
 
 </LinearLayout>
