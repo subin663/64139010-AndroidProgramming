@@ -6,7 +6,9 @@
 
 Lưu trữ các bài tập của tôi.
 Một ứng dụng di động được phát triển bằng AndroidStudio.
-
+<div align="center">
+  <img height="400" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTJscTRrN29ybW04OHByZm8xNTZzazB3czg4cHJkdG0wM2I2YzNsNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bGgsc5mWoryfgKBx1u/giphy.gif" />
+</div>
 ## Tính Năng
 <div>
   <h4>Ex1: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/Ex6_IntentDonGian">Ex3_HelloApp</a></h4>
@@ -39,6 +41,13 @@ Một ứng dụng di động được phát triển bằng AndroidStudio.
 
 <div>
   <h4>Ex7: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/Ex7_IntentLogin">Ex7_IntentLogin</a></h4>
+  <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/Ex7_IntetnLogin/img1.jpg" width = "200">
+  <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/Ex7_IntetnLogin/img2.jpg" width = "200">
+  <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/Ex7_IntetnLogin/img3.jpg" width = "200">
+</div>
+
+<div>
+  <h4>Ex8: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/Ex7_IntentLogin">Ex8_CalculatorCheck</a></h4>
   <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/Ex7_IntetnLogin/img1.jpg" width = "200">
   <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/Ex7_IntetnLogin/img2.jpg" width = "200">
   <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/Ex7_IntetnLogin/img3.jpg" width = "200">
