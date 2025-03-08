@@ -9,23 +9,23 @@ Một ứng dụng di động được phát triển bằng AndroidStudio.
 
 ## Tính Năng
 <div>
-  <h4>Ex1: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/Ex6_IntentDonGian">Ex3_HelloApp</a></h4>
+  <h4>Ex1: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/Ex1_Hello">Ex1_HelloApp</a></h4>
   <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/Ex1_Hello.jpg" width = "200">
 </div>
 <div>
-  <h4>Ex2: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/Ex6_IntentDonGian">Ex2_LinearLayout</a></h4>
+  <h4>Ex2: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/Ex2_LinearLayout">Ex2_LinearLayout</a></h4>
   <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/Ex2_LinearLayout.jpg" width = "200">
 </div>
 <div>
-  <h4>Ex3: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/Ex6_IntentDonGian">Ex3_SimpleSumApp</a></h4>
+  <h4>Ex3: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/Ex3_SimpleSumApp">Ex3_SimpleSumApp</a></h4>
   <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/Ex3_SimpleSumApp.jpg" width = "200">
 </div>
 <div>
-  <h4>Ex4: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/Ex6_IntentDonGian">Ex4_BMIConculator</a></h4>
+  <h4>Ex4: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/BMI">Ex4_BMIConculator</a></h4>
   <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/BMICalculator.jpg" width = "200">
 </div>
 <div>
-  <h4>Ex5: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/Ex6_IntentDonGian">Ex5_ConvertUnit</a></h4>
+  <h4>Ex5: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/ConvertUnit">Ex5_ConvertUnit</a></h4>
   <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/ConvertUnit.jpg" width = "200">
 </div>
 
@@ -45,7 +45,7 @@ Một ứng dụng di động được phát triển bằng AndroidStudio.
 </div>
 
 <div>
-  <h4>Ex8: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/Ex7_IntentLogin">Ex8_CalculatorCheck</a></h4>
+  <h4>Ex8: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/Ex8_CalculatorCheck">Ex8_CalculatorCheck</a></h4>
   <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/Ex8_CalculatorCheck/imgMain.jpg" width = "200">
   <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/Ex8_CalculatorCheck/img1.jpg" width = "200">
   <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/Ex8_CalculatorCheck/img2.jpg" width = "200">
