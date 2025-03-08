@@ -1,4 +1,4 @@
-# Tên Ứng Dụng Di Động
+
 # Lập trình Ứng Dụng Di Động
 
 <div align="center">
