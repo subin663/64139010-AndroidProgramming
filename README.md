@@ -57,3 +57,11 @@ Một ứng dụng di động được phát triển bằng AndroidStudio.
   <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/AutoCompleteTV/img.jpg" width = "200">
   <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/AutoCompleteTV/img2.jpg" width = "200">
 </div>
+
+<div>
+  <h4>Ex9: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/LoginPage">Ex10_LoginPage</a></h4>
+  <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/LoginPage/img1.jpg" width = "200">
+  <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/LoginPage/img2.jpg" width = "200">
+  <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/LoginPage/img3.jpg" width = "200">
+
+</div>
