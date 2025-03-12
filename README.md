@@ -51,3 +51,9 @@ Một ứng dụng di động được phát triển bằng AndroidStudio.
   <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/Ex8_CalculatorCheck/img2.jpg" width = "200">
   <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/Ex8_CalculatorCheck/img3.jpg" width = "200">
 </div>
+
+<div>
+  <h4>Ex9: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/Ex8_CalculatorCheck">Ex9_AutoCompleteTV & Listview</a></h4>
+  <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/AutoCompleteTV/img.jpg" width = "200">
+  <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/AutoCompleteTV/img2.jpg" width = "200">
+</div>
