@@ -36,5 +36,12 @@ public class ModelActivity extends AppCompatActivity {
                 startActivity(iCount);
             }
         });
+        ivMatch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iMatch=new Intent(ModelActivity.this, MatchActivity.class);
+                startActivity(iMatch);
+            }
+        });
     }
 }
