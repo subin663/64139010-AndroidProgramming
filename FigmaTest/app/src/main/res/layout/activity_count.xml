@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".CountActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -34,49 +34,53 @@
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="230dp"
-        android:orientation="vertical"
+        android:layout_height="400dp"
         android:gravity="center"
-        android:background="@drawable/back">
+        android:orientation="vertical">
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hellu Menu"
-            android:textSize="20dp"
+            android:textSize="28dp"
+            android:layout_marginBottom="30dp"
             android:textStyle="bold"
-            android:layout_marginTop="50dp">
-        </TextView>
-        <TextView
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Please Select Language"
+            android:gravity="center"
             android:textColor="#FFEE8B60"
-            android:textStyle="bold"
-            android:textSize="30dp"
-            android:layout_marginTop="60dp"
-            />
+            android:text="How many bears in this image?"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/imgbear"/>
+    </LinearLayout>
+<!--answers-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kết quả: "/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
         <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:gravity="center">
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
             <ImageView
-                android:id="@+id/btnEn"
+                android:id="@+id/btn1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/english"
+                android:src="@drawable/btn1"
                 android:layout_marginRight="20dp"/>
             <ImageView
-                android:id="@+id/btnIn"
+                android:id="@+id/btn4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/indo"
+                android:src="@drawable/btn4"
                 android:layout_marginLeft="20dp"/>
         </LinearLayout>
         <LinearLayout
@@ -85,18 +89,17 @@
             android:layout_weight="1"
             android:gravity="center">
             <ImageView
-                android:id="@+id/btnCn"
+                android:id="@+id/btn2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/china"
+                android:src="@drawable/btn2"
                 android:layout_marginRight="20dp"/>
             <ImageView
-                android:id="@+id/btnJp"
+                android:id="@+id/btn6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/japan"
+                android:src="@drawable/btn6"
                 android:layout_marginLeft="20dp"/>
         </LinearLayout>
     </LinearLayout>
-
 </LinearLayout>
