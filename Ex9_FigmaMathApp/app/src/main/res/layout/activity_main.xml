@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ModelActivity">
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -35,35 +35,50 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="230dp"
-        android:gravity="center">
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/back">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Models"
+            android:text="Hellu Menu"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp">
+        </TextView>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please Select Language"
             android:textColor="#FFEE8B60"
             android:textStyle="bold"
             android:textSize="30dp"
+            android:layout_marginTop="60dp"
             />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="340dp"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:gravity="center">
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
             <ImageView
-                android:id="@+id/btnCou"
+                android:id="@+id/btnEn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/count"/>
+                android:src="@drawable/english"
+                android:layout_marginRight="20dp"/>
             <ImageView
-                android:id="@+id/btnMat"
+                android:id="@+id/btnIn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/match"/>
+                android:src="@drawable/indo"
+                android:layout_marginLeft="20dp"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -71,15 +86,18 @@
             android:layout_weight="1"
             android:gravity="center">
             <ImageView
-                android:id="@+id/btnPat"
+                android:id="@+id/btnCn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/pattern"/>
+                android:src="@drawable/china"
+                android:layout_marginRight="20dp"/>
             <ImageView
-                android:id="@+id/btnSet"
+                android:id="@+id/btnJp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/settings"/>
+                android:src="@drawable/japan"
+                android:layout_marginLeft="20dp"/>
         </LinearLayout>
     </LinearLayout>
+
 </LinearLayout>
