@@ -23,5 +23,19 @@
             android:layout_height="80dp"
             android:drawableEnd="@drawable/find"/>
     </LinearLayout>
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"></LinearLayout>
+        <LinearLayout
+            android:layout_width="110dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/light"/>
+        </LinearLayout>
+    </LinearLayout>
 </LinearLayout>
