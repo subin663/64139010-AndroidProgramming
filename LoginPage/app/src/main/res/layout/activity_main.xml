@@ -43,7 +43,7 @@
                 android:id="@+id/username"
                 android:background="@drawable/custom_edittext"
                 android:drawablePadding="8dp"
-
+                android:drawableLeft="@drawable/person"
                 android:hint="Username"
                 android:padding="8dp"
                 android:textColor="@color/black"
@@ -52,6 +52,7 @@
 
             <!---->
             <EditText
+                android:drawableLeft="@drawable/lock"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:id="@+id/password"
