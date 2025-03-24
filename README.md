@@ -65,14 +65,18 @@ Một ứng dụng di động được phát triển bằng AndroidStudio.
   <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/LoginPage/img3.jpg" width = "200">
 </div>
 <div>
-  <h4>Ex10: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/Ex9_FigmaMathApp">Ex10_FigmaMathApp</a></h4>
+  <h4>Ex10: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/Ex9_FigmaMathApp">Ex11_FigmaMathApp</a></h4>
   <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/FigmaMathApp/img1.jpg" width = "200">
   <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/FigmaMathApp/img2.jpg" width = "200">
   <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/FigmaMathApp/img3.jpg" width = "200">
   <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/FigmaMathApp/img4.jpg" width = "200">
 </div>
 <div>
-  <h4>Ex11: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/TestImageFigma">TestFigmaImage</a></h4>
+  <h4>Ex11: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/TestImageFigma">Ex12_TestFigmaImage</a></h4>
   <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/FigmaMathApp/testfigma.jpg" width = "200">
 </div>
 
+<div>
+  <h4>Ex11: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/TestImageFigma">Ex13_TestFigmaImage</a></h4>
+  <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/FigmaMathApp/testfigma.jpg" width = "200">
+</div>
