@@ -71,3 +71,8 @@ Một ứng dụng di động được phát triển bằng AndroidStudio.
   <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/FigmaMathApp/img3.jpg" width = "200">
   <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/FigmaMathApp/img4.jpg" width = "200">
 </div>
+<div>
+  <h4>Ex11: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/TestImageFigma">TestFigmaImage</a></h4>
+  <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/FigmaMathApp/testfigma.jpg" width = "200">
+</div>
+
