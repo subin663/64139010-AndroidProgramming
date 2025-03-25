@@ -81,3 +81,8 @@ Một ứng dụng di động được phát triển bằng AndroidStudio.
   <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/Exx13_recyclerview/img1.jpg" width = "200">
   <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/Exx13_recyclerview/img2.jpg" width = "200">
 </div>
+<div>
+  <h4>Ex11: <a href = "https://github.com/subin663/64139010-AndroidProgramming/tree/main/Blog/Exx13_recyclerview">Ex14_TestRecyclerView</a></h4>
+  <img src = "https://github.com/subin663/64139010-AndroidProgramming/blob/main/Blog/Exx13_recyclerview/WBB.jpg" width = "200">
+</div>
+
