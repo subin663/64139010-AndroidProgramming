@@ -38,11 +38,15 @@ public class MainActivity extends AppCompatActivity {
 
     ArrayList<WBB> getDataForRecyclerView(){
         ArrayList<WBB> dsDuLieu=new ArrayList<WBB>();
-        WBB landScape1=new WBB("img","StreetImage","asdasd");
+        WBB landScape1=new WBB("img","BrownBear","asdasd");
         dsDuLieu.add(landScape1);
-        dsDuLieu.add(new WBB("img_1","MoutainImage","asdasd"));
-        dsDuLieu.add(new WBB("img_2","LakeImage","lasdasd"));
-        dsDuLieu.add(new WBB("img_3","SpringImage","asdasdas"));
+        dsDuLieu.add(new WBB("img_1","ZukaBear","asdasd"));
+        dsDuLieu.add(new WBB("img_2","WhiteBear","lasdasd"));
+        dsDuLieu.add(new WBB("img_3","ZukaBearChild","asdasdas"));
+        dsDuLieu.add(new WBB("img_4","WhiteBear2","asdasdas"));
+        dsDuLieu.add(new WBB("img_5","BrownBear2","asdasdas"));
+        dsDuLieu.add(new WBB("img_1","ZukaBear","asdasdas"));
+        dsDuLieu.add(new WBB("img_3","ZukaBearChild","asdasdas"));
         return dsDuLieu;
 
     }
