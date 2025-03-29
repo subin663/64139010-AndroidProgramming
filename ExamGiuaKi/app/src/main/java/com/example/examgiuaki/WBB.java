@@ -1,15 +1,24 @@
 package com.example.examgiuaki;
 
 public class WBB {
-
+    int id_item;
     String wbbFileName;
     String wbbFb;
     String wbbIns;
 
-    public WBB(String wbbFileName, String wbbFb, String wbbIns) {
+    public WBB(int id_item, String wbbFileName, String wbbFb, String wbbIns) {
+        this.id_item = id_item;
         this.wbbFileName = wbbFileName;
         this.wbbFb = wbbFb;
         this.wbbIns = wbbIns;
+    }
+
+    public int getId_item() {
+        return id_item;
+    }
+
+    public void setId_item(int id_item) {
+        this.id_item = id_item;
     }
 
     public String getWbbFileName() {

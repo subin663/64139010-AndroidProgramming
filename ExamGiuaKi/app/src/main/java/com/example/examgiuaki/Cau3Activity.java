@@ -31,18 +31,19 @@ public class Cau3Activity extends AppCompatActivity {
         wbbAdapter=new WBBAdapter(this,recyclerViewDatas);
         //7
         rycyclerViewWBB.setAdapter(wbbAdapter);
+
     }
 
     ArrayList<WBB> getDataForRecyclerView(){
         ArrayList<WBB> dsDuLieu=new ArrayList<WBB>();
-        dsDuLieu.add(new WBB("img_1","ZukaBear","khbjk"));
-        dsDuLieu.add(new WBB("img_2","WhiteBear","hjjkhj"));
-        dsDuLieu.add(new WBB("img_3","ZukaBearChild","lkl"));
-        dsDuLieu.add(new WBB("img_4","WhiteBear2","lkjn"));
-        dsDuLieu.add(new WBB("img_5","BrownBear2","ljhj"));
-        dsDuLieu.add(new WBB("img_1","ZukaBear","knl"));
-        dsDuLieu.add(new WBB("img_3","ZukaBearChild",";kjlkj"));
+        dsDuLieu.add(new WBB(1,"img_1","ZukaBear","khbjk"));
+        dsDuLieu.add(new WBB(2,"img_2","WhiteBear","hjjkhj"));
+        dsDuLieu.add(new WBB(3,"img_3","ZukaBearChild","lkl"));
+        dsDuLieu.add(new WBB(4,"img_4","WhiteBear2","lkjn"));
+        dsDuLieu.add(new WBB(5,"img_5","BrownBear2","ljhj"));
+        dsDuLieu.add(new WBB(6,"img_1","ZukaBear","knl"));
+        dsDuLieu.add(new WBB(7,"img_3","ZukaBearChild",";kjlkj"));
         return dsDuLieu;
-
     }
+
 }
