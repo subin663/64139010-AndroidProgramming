@@ -36,14 +36,15 @@ public class Cau3Activity extends AppCompatActivity {
 
     ArrayList<WBB> getDataForRecyclerView(){
         ArrayList<WBB> dsDuLieu=new ArrayList<WBB>();
-        dsDuLieu.add(new WBB(1,"img_1","ZukaBear","khbjk"));
-        dsDuLieu.add(new WBB(2,"img_2","WhiteBear","hjjkhj"));
-        dsDuLieu.add(new WBB(3,"img_3","ZukaBearChild","lkl"));
-        dsDuLieu.add(new WBB(4,"img_4","WhiteBear2","lkjn"));
-        dsDuLieu.add(new WBB(5,"img_5","BrownBear2","ljhj"));
-        dsDuLieu.add(new WBB(6,"img_1","ZukaBear","knl"));
-        dsDuLieu.add(new WBB(7,"img_3","ZukaBearChild",";kjlkj"));
+        dsDuLieu.add(new WBB(1,"img_1","ZukaBear","khbjk", "ZukaBear là một chú gấu mạnh mẽ"));
+        dsDuLieu.add(new WBB(2,"img_2","WhiteBear","hjjkhj", "WhiteBear đến từ vùng lạnh giá"));
+        dsDuLieu.add(new WBB(3,"img_3","ZukaBearChild","lkl", "ZukaBearChild là phiên bản nhỏ của ZukaBear"));
+        dsDuLieu.add(new WBB(4,"img_4","WhiteBear2","lkjn", "WhiteBear2 có bộ lông trắng muốt"));
+        dsDuLieu.add(new WBB(5,"img_5","BrownBear2","ljhj", "BrownBear2 là chú gấu nâu đáng yêu"));
+        dsDuLieu.add(new WBB(6,"img_1","ZukaBear","knl", "ZukaBear dũng mãnh và kiên cường"));
+        dsDuLieu.add(new WBB(7,"img_3","ZukaBearChild",";kjlkj", "ZukaBearChild đang học cách trở thành chiến binh"));
         return dsDuLieu;
     }
+
 
 }

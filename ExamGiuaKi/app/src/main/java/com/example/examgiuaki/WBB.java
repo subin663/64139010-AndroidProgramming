@@ -1,16 +1,29 @@
 package com.example.examgiuaki;
 
-public class WBB {
+import java.io.Serializable;
+
+public class WBB implements Serializable {
+    private static final long serialVersionUID = 1L;
     int id_item;
     String wbbFileName;
     String wbbFb;
     String wbbIns;
+    String wbbDescription;
 
-    public WBB(int id_item, String wbbFileName, String wbbFb, String wbbIns) {
+    public WBB(int id_item, String wbbFileName, String wbbFb, String wbbIns, String wbbDescription) {
         this.id_item = id_item;
         this.wbbFileName = wbbFileName;
         this.wbbFb = wbbFb;
         this.wbbIns = wbbIns;
+        this.wbbDescription = wbbDescription;
+    }
+
+    public String getWbbDescription() {
+        return wbbDescription;
+    }
+
+    public void setWbbDescription(String wbbDescription) {
+        this.wbbDescription = wbbDescription;
     }
 
     public int getId_item() {

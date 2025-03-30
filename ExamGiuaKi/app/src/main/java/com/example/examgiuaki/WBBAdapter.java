@@ -1,6 +1,7 @@
 package com.example.examgiuaki;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -47,6 +48,12 @@ public class WBBAdapter extends RecyclerView.Adapter<WBBAdapter.itemBearHolder> 
         String packageName=holder.itemView.getContext().getPackageName();
         int imageID=holder.itemView.getResources().getIdentifier(tenanh,"mipmap", packageName);
         holder.ivBearAvt.setImageResource(imageID);
+        // Bắt sự kiện click item
+        holder.itemView.setOnClickListener(v -> {
+            Intent intent = new Intent(context, DetailActivity.class);
+            intent.putExtra("wbbData", wbbHienthi);
+            context.startActivity(intent);
+        });
     }
 
     @Override
