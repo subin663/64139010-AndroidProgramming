@@ -1,5 +1,6 @@
 package com.example.examgiuaki;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -58,8 +59,13 @@ public class Cau2Activity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 String selectedItem = dsTenNgonNguLapTrinh.get(position);
-                Toast.makeText(Cau2Activity.this, "Bạn đã chọn: " + selectedItem, Toast.LENGTH_SHORT).show();
+
+                // Chuyển sang Activity mới
+                Intent intent = new Intent(Cau2Activity.this, Detail_Activity2.class);
+                intent.putExtra("selectedItem", selectedItem); // Truyền dữ liệu
+                startActivity(intent);
             }
         });
+
     }
 }
