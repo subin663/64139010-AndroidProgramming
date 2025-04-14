@@ -32,7 +32,6 @@ public class WBBAdapter extends RecyclerView.Adapter<WBBAdapter.itemBearHolder> 
         //View vItem2=link_ins.inflate(R.layout.wbb,parent,false);
         itemBearHolder viewholderCreated=new itemBearHolder(vItem1);
         //itemBearHolder viewholderCreated2=new itemBearHolder(vItem2);
-
         return viewholderCreated;
     }
 
@@ -66,5 +65,4 @@ public class WBBAdapter extends RecyclerView.Adapter<WBBAdapter.itemBearHolder> 
             ivBearAvt=itemView.findViewById(R.id.ivBear);
         }
     }
-
 }

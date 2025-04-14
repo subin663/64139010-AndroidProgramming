@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BMI CALCULATOR"
+            android:layout_gravity="center"
+            android:textSize="40dp"
+            android:background="@android:color/holo_blue_light"
+            android:textColor="@color/black"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Vui lòng nhập cân nặng của bạn !"
+            android:textSize="25dp"
+            android:gravity="center"
+            />
+        <EditText
+            android:id="@+id/edtKg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Kg"
+            android:gravity="center"
+            android:inputType="numberSigned"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Vui lòng nhập chiều cao của bạn !"
+            android:textSize="25dp"
+            android:gravity="center"
+            />
+        <EditText
+            android:id="@+id/edtCm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="M"
+            android:gravity="center"
+            android:inputType="numberDecimal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center">
+        <RadioGroup
+            android:id="@+id/rdoSex"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rdoNam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nam"
+                android:layout_marginRight="70dp"
+                />
+            <RadioButton
+                android:id="@+id/rdoNu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nữ"
+                android:layout_marginLeft="70dp"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <ImageView
+            android:id="@+id/imgNam"
+            android:src="@drawable/nam"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            />
+        <ImageView
+            android:src="@drawable/nu"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnKq"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Tính toán"
+            android:textSize="20dp">
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Kết quả: "
+                android:gravity="center"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/black"
+                />
+            <EditText
+                android:id="@+id/edtKQ"
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:enabled="false"
+                android:textColor="@color/black">
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Đánh giá: "
+                android:gravity="center"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/black"
+                />
+
+            <EditText
+                android:id="@+id/edtRate"
+                android:layout_width="190dp"
+                android:layout_height="match_parent">
+            </EditText>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+

@@ -48,6 +48,8 @@ public class WBBAdapter extends RecyclerView.Adapter<WBBAdapter.itemBearHolder> 
         String packageName=holder.itemView.getContext().getPackageName();
         int imageID=holder.itemView.getResources().getIdentifier(tenanh,"mipmap", packageName);
         holder.ivBearAvt.setImageResource(imageID);
+
+
         // Bắt sự kiện click item
         holder.itemView.setOnClickListener(v -> {
             Intent intent = new Intent(context, DetailActivity.class);
@@ -74,3 +76,5 @@ public class WBBAdapter extends RecyclerView.Adapter<WBBAdapter.itemBearHolder> 
         }
     }
 }
+
+
